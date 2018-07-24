@@ -1,13 +1,44 @@
-header{
-    nav{
-        display:flex;
+header {
+    nav {
+        display: flex;
         justify-content: space-around;
-        ul{
+
+        ul {
             li {
                 display: inline-flex;
                 justify-content: space-around;
-
             }
         }
+    }
+}
+
+.firstHeader {
+    h2, h3 {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #btn1, #ipt {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+    }
+}
+
+main {
+    .art1 {
+        width: 400px;
+        margin-left: 8em;
+
+
+    }
+    .art2 {
+        width: 400px;
+        margin: 8em;
+    
+
     }
 }
